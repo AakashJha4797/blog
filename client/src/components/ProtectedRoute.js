@@ -12,8 +12,8 @@ import {
 import { HideLoading, ShowLoading } from "../redux/loadersSlice";
 import { GetAllNotifications } from "../apicalls/notifications";
 import { io } from "socket.io-client";
-const socket = io("http://localhost:4000");
-// const socket = io("https://blogs-cc-render.com");
+// const socket = io("http://localhost:4000");
+const socket = io("https://blogs-cursed-curiosity-render.com");
 
 
 function ProtectedRoute({ children }) {
